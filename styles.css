@@ -1,0 +1,42 @@
+h1 {
+    color: red;
+    font-family: roboto;
+    text-align: center;
+}
+   h1 {
+       color:rgb(106, 0, 255);
+       font: sans-serif;
+   }
+
+   p {
+       color: rgb(97, 0, 139);
+       font: small;
+   }
+   .title {
+       color: blue
+   }
+   #blue-bordered {
+       border: 5px dashed blue;
+   }
+   /* Selecting multiple HTML element types */
+   h1,
+   p {
+       border: 1px solid whitesmoke;
+   }
+
+   /* Selecting styles to be applied to several classes */
+   .FirstItem,
+   .LastItem {
+       font-size: 1.2em;
+   }
+
+   /* Using multiple Kinds of selectors */
+   h3,
+   .red,
+   #redElement {
+       color: red
+   }
+   div {
+       height: 50px;
+       width: 90%;
+   }
